@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+#container{
+    display: grid;
+    width: 310px;
+    height: 310px;
+    margin:auto;
+    background-color: white;
+    padding: 10px; 
+    grid-gap: 5px;
+    grid-template-areas: 
+        'area1 area2 area3'
+        'area4 area5 area6'
+        'area7 area8 area9';
+}
+
+.display{
+    background-color: #61429d;
+    border-color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.area-1{
+    grid-area: area1;
+}
+
+.area-2{
+    grid-area: area2;
+}
+
+.area-3{
+    grid-area: area3;
+}
+
+.area-4{
+    grid-area: area4;
+}
+
+.area-5{
+    grid-area: area5;
+}
+
+.area-6{
+    grid-area: area6;
+}
+
+.area-7{
+    grid-area: area7;
+}
+
+.area-8{
+    grid-area: area8;
+}
+
+.area-9{
+    grid-area: area9;
+}
+
+
+
+
+
+
+
+
